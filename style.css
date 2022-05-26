@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#introduction{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white !important;
+}
+#introImg{
+    height: fit-content;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#introContent{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: flex-start; */
+}
+#introImg img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#introContent p a{
+    text-decoration: none;
+    color: yellow;
+    transition: all 0.5s ease-in-out;
+}
+#introContent p a:hover{
+    /* transform: scale(1.2); */
+    color: red;
+    font-size: 20px;
+}
+#books{
+    padding: 15px;
+    margin-top:  30px;
+}
+#booksList{
+    padding: 15px 0 0 50px ;
+}
+#workExp{
+    padding: 15px;
+    margin-top: 30px;
+}
+#workTable{
+    margin: 15px;
+    width: 550px;
+    /* background-color: aliceblue; */
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+#skills{
+    padding: 15px;
+    mask-type: 30px;
+}
+#skillsTable{
+    margin: 15px;
+    width: 350px;
+    /* background-color: rebeccapurple; */
+}
+#skillsTable tr:nth-child(odd) {
+    background-color: rgb(128, 219, 149);
+}
+#contactMe{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+#contactMe a{
+    text-decoration: none;
+}
+
+
+.webpage{
+    display:flex;
+    height:900px;
+    align-items:center;
+    justify-content:center;
+  background-image:linear-gradient(33deg,#5583EE,#41D8DD);
+  }
+  .page{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .registration_box{
+    font-family:"Lucida Console";
+    font-size:35px;
+    font-weight:bold;
+    margin-top:25px;
+  }
+  .member{
+    text-align:center;
+    margin-top:35px;
+  }
+  .link_decoration{
+    text-decoration:none;
+    font-family:"Lucida Console";
+    color:rgb(12, 19, 58);
+  }
+  a:hover{
+    text-decoration:underline;
+    font-weight:bold;
+  }
+  input:hover{
+    border:2px solid black;
+  }
+  textarea:hover{
+   border:2px solid black; 
+  }
+  .buttons{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+  }
+  .suggestion_area{
+    display:flex;
+    text-align:center;
+    line-height:150px;
+  }
+  .name-label{
+    margin-top:30px;
+  }
+  .email-label{
+    margin-top:12px;
+  }
+  .number-label{
+    margin-top:12px;
+  }
+  .box{
+    margin-top:15px;
+  }
+  .radio2{
+    margin-top:-15px;
+  }
+  .radio3{
+    margin-top:2px;
+  }
+  .q3{
+    margin-top:12px;
+  }
+  .scroll1{
+    margin-top:12px;
+  }
+  .submit_button{
+     color: black;
+    border: 2px solid #1542e6;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  button:hover{
+    box-shadow: inset 400px 0 0 0 #1542e6;
+    color:white;
+  }
+  .reset_button{
+    color: black;
+    border: 2px solid #1542e6;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left:12px;
+  }

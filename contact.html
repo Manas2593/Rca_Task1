@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="webpage">
+    <div class="page">
+      <div class="column1">
+        <div class="registration_box"><b><u>SIGN UP</u></b></div>
+        <div clas="form">
+          <form>
+      <div class="name-label"><label for="name"><b>*Name</b></label></div>
+        <input type="text" id="name" placeholder="Enter you name" required oninvalid="this.setCustomValidity('Enter your name')" oninput="setCustomValidity('')"> <br>
+            <div class="email-label"><label for="email"><b>*Email</b></label></div>
+      <input type="email" id="email" class="email_input" placeholder="exampleabc@gmail.com" required oninvalid="this.setCustomValidity('Enter your email id')" oninput="setCustomValidity('')"><br>
+            <div class="number-label"><label for="number"><b>Age</b></label></div>
+      <input type="number" id="number" placeholder="Age" class="age_input" oninvalid="this.setCustomValidity('Enter correct Age')" oninput="setCustomValidity('')" min="18" max="26">
+      
+            <div class="suggestion_area">
+      <label for="comments" class="comments"><b>Suggestions:</b></label>
+      <textarea id="comments" rows="10" cols="80" placeholder="enter your comments here"></textarea>
+            </div>
+      <br><div class="buttons">
+      <button type="submit" class="submit_button">Submit</button>
+      <br>
+      <button type="reset" class="reset_button">Reset</button>
+            </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
